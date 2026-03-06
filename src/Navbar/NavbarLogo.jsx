@@ -3,7 +3,7 @@ import React from 'react'
 const NavbarLogo = () => {
   return (
     <div>
-      <img src="..\public\Images\imageNav\Group 1000006184.png" alt="Logo" />
+      <img src="/Images/imageNav/Group 1000006184.png" alt="Logo" />
     </div>
   )
 }

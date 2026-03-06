@@ -5,7 +5,7 @@ img{
     min-width: 100%;
 }
 .BakimgS {
-    background-image: url('Images/Image.Contact/Rectangle 9799.png');
+    background-image: url('/Images/Image.Contact/Rectangle 9799.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
