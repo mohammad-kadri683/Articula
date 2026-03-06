@@ -79,23 +79,23 @@ const Swiper1 = () => {
                 <Col lg={7} md={12} sm={12} className='mt-5 ordares'>
                   <div className="imgrice">
                     <div className="imgs4">
-                      <img src="../public/Images/images.page1/Vector (13).png" alt="rice"data-aos="zoom-out-right"data-aos-delay={800} />
+                      <img src="/Images/images.page1/Vector (13).png" alt="rice"data-aos="zoom-out-right"data-aos-delay={800} />
                     </div>
                     <div className="line-img">
-                      <img src="../public/Images/images.page1/Vector 1.png" alt="line" data-aos="zoom-out-right" data-aos-delay={800}   />
+                      <img src="/Images/images.page1/Vector 1.png" alt="line" data-aos="zoom-out-right" data-aos-delay={800}   />
                     </div>
                     <div className="line-img more-right">
-                      <img src="../public/Images/images.page1/Vector 2.png" alt="line" data-aos="zoom-out-right" data-aos-delay={800}   />
+                      <img src="/Images/images.page1/Vector 2.png" alt="line" data-aos="zoom-out-right" data-aos-delay={800}   />
                     </div>
                     <div className="imgs">
                       <div className="imgs1">
-                        <img src="../public/Images/images.page1/Rectangle 9775.png" alt="table and planet" data-aos="fade-down" data-aos-delay={200} />
+                        <img src="/Images/images.page1/Rectangle 9775.png" alt="table and planet" data-aos="fade-down" data-aos-delay={200} />
                       </div>
                       <div className="imgs2">
-                        <img src="../public/Images/images.page1/Rectangle 9777.png" alt="ipad and notebook" data-aos="fade-right" data-aos-delay={400}  />
+                        <img src="/Images/images.page1/Rectangle 9777.png" alt="ipad and notebook" data-aos="fade-right" data-aos-delay={400}  />
                       </div>
                       <div className="imgs3">
-                        <img src="../public/Images/images.page1/Rectangle 9776.png" alt="man handling phone" data-aos="fade-left"  data-aos-delay={600}  />
+                        <img src="/Images/images.page1/Rectangle 9776.png" alt="man handling phone" data-aos="fade-left"  data-aos-delay={600}  />
                       </div>
                     </div>
                   </div>
