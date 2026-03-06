@@ -1,0 +1,192 @@
+.bg-N{
+    background-color: #6341AF;
+
+}
+img{
+     max-width: 100%;
+}
+
+.bg-none{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.world-icon{
+    color: white ;
+    font-size: 18px;
+}
+.bg-none:focus {
+  outline: none;
+
+}
+.bg-none option {
+  color: black; 
+  border: none;
+  padding: 100px;
+}
+
+
+
+.class-weight {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 17px;
+}
+
+.class-weight:hover {
+  color: #ffffff;
+}
+
+
+.class-weight.active {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.SignIn{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  padding-inline: 40px;
+  border: dotted  1px white;
+  border-radius: 15px;
+         transition: all 0.4s ease;
+}
+.SignIn:hover {
+  box-shadow: 
+  inset 0 0 20px rgba(255, 255, 255, 0.4); 
+  background: rgba(255, 255, 255, 0.1); 
+  opacity: 0.8; 
+}
+.CreateAcc{
+   text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  padding-inline: 20px;
+  border: solid 1px white;
+  border-radius: 15px;
+  background-color: #FEF3C7;
+}
+.navbar-brand {
+  flex-shrink: 0; 
+}
+@media (min-width:991.98px) and (max-width:1399.99px) {
+.SignIn{
+  font-size: 15px;
+white-space: nowrap;
+  padding: 6px;
+  padding-inline: 25px;
+  border: dotted  1px white;
+  border-radius: 10px;
+         
+}
+.CreateAcc{
+   font-size: 15px;
+white-space: nowrap;
+  padding: 6px;
+  padding-inline: 16px;
+ 
+  border-radius: 10px;
+
+}
+.class-weight {
+white-space: nowrap;
+font-size: 16px;
+}
+.navbar-brand {
+ width: 17%;
+}
+.navooo{
+  display: flex;
+  gap: 0px;
+}
+
+}
+@media (min-width: 991px) and (max-width: 1199.99px) {
+  .navooo {
+   
+    gap: 25px !important; 
+  }
+
+  .arbicc {
+    flex-wrap: nowrap !important;
+    gap: 10px !important;
+  }
+
+
+
+  .navbar-brand {
+  width: 20%;
+  }
+
+
+
+
+}
+
+.offcanvss{
+  background-color: #6341AF;
+}
+.navbar-toggler {
+  border: none;
+  outline: none ;
+  box-shadow: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  border: none ;
+  outline: none ;
+  box-shadow: none;
+}
+ .offcanvss .SignIn{
+width: 40%;
+}
+ .offcanvss .CreateAcc{
+width: 40%;
+}
+@media (min-width:768px) and (max-width:991.99px){
+  .offcanvss.show{
+    width: 50%;
+  }
+}
+@media   (max-width:767.99px){
+  .offcanvss.show{
+    width: 60%;
+  }
+
+}
+.offcanvss .SignIn,
+.offcanvss .CreateAcc {
+  display: inline-block ;
+  width: auto ;
+}
+.offc-btns {
+  align-items: flex-start ;
+
+}
+.dropdownn{
+  background-color:none ;
+}
+.imgprofile img{
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+body {
+  padding-top: 85px; 
+}
+@media (max-width:767.99px){
+  body {
+  padding-top: 35px; 
+}
+.navlogoo{
+  width: 25%;
+}
+}

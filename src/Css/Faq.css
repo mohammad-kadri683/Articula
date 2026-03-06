@@ -1,0 +1,97 @@
+img{
+    max-width: 100%;
+}
+.TabNav{
+color: black;
+}
+.TabNav.active{
+    color: white;
+    background-color:#8B5CF6
+}
+.rowtab{
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
+.CrdTabs{
+    border: solid 1px rgb(225, 225, 225);
+border-radius: 8px;
+
+}
+.TabNav{
+    border-radius: 8px;
+}
+.TabNav:hover{
+    color: blueviolet;
+}
+.TabNav:hover.active{
+    color: white;
+}
+
+
+.Accheader .accordion-button::after {
+  display: none;
+}
+.custom-arrow {
+    
+  margin-left: auto;
+  width: 32px;
+  height: 32px;
+  background-color: #A27DF8;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) .custom-arrow {
+  transform: rotate(180deg);
+}
+
+.spinnerfaq{
+    padding-bottom: 250px;
+}
+@media (min-width:768px) and (max-width:991.99px){
+    .Fef{
+        margin-top: 40px;
+    }
+    .TabNav{
+        font-size: 15px;
+    }
+    .Accheader p{
+        font-size: 15px;
+    }
+.custom-arrow{
+    width: 28px;
+    height: 28px;
+}
+.bodyfaq{
+    font-size: 14px;
+}
+.rowtab{
+    margin-top: 70px;
+}
+
+}
+@media (max-width:767.99px){
+     .Fef{
+        margin-top: 40px;
+    }
+    .TabNav{
+        font-size: 14px;
+    }
+    .Accheader p{
+        font-size: 14px;
+    }
+.custom-arrow{
+    width: 26px;
+    height: 26px;
+}
+.bodyfaq{
+    font-size: 13px;
+}
+.rowtab{
+    margin-top: 60px;
+}
+}

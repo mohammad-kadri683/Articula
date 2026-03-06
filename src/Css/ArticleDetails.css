@@ -1,0 +1,150 @@
+img{
+    max-width: 100%;
+}
+
+.articleimg{
+    margin-top: 50px;
+}
+    .articleimg img{
+
+        height: 70vh;
+border-radius: 20px;
+        width: 100%;
+        object-fit: cover;
+        
+    }
+    .borderDetail{
+        border: solid 1px rgb(180, 180, 180);
+    }
+  .edit{
+    font-size:  30px;
+    cursor: pointer;
+  }
+  .btnSave{
+    
+    border: none;
+    padding: 10px;
+    padding-inline: 40px;
+    color: white;
+    background-color:blueviolet;
+    border-radius: 8px;
+  }
+
+  .Active{
+    display: block;
+    height: 35px;
+    width: 13px;
+    border-radius: 12px;
+    background-color: blueviolet;
+  }
+  .media img{
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+.cardEditMy strong{
+  font-size: 19px;
+}
+.formin{
+  background-color: rgb(233, 233, 233);
+  padding: 12px;
+}
+.btSave .cancelbtn{
+  background-color: rgb(215, 215, 215);
+  border: none;
+   padding: 12px;
+  padding-inline: 30px;
+    color: black;
+  border-radius: 10px;
+  border: none;
+}
+
+.spinnerr{
+   margin-top: 300px;
+   display: flex;
+   justify-content: center;
+
+}
+.cardEditMy {
+  border-radius: 20px;
+  padding: 20px; 
+  margin-top: 70px;
+  margin-bottom: 40px; 
+  border: 1px solid rgba(0, 0, 0, 0.05); 
+  background-color: #ffffff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.05);
+}
+.SaveChangebt {
+  color: white;
+  padding: 12px 25px;
+  background-color: rgb(157, 64, 244);
+  border-radius: 10px;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(157, 64, 244, 0.3);
+}
+
+.SaveChangebt:hover {
+ 
+  box-shadow: 0 6px 25px rgba(157, 64, 244, 0.5);
+  transform: translateY(-2px); 
+  background-color: rgb(140, 50, 230); 
+}
+.media{
+  position: relative;
+  display: inline-block ;
+}
+.media .but {
+  position: absolute;
+  top: 50px;   /* حدد الموقع الذي تريده */
+  right: 10px; /* قريب من حافة الصورة */
+}
+
+.media .but button {
+  background-color:  rgb(140, 50, 230); 
+  padding: 5px;
+  border-radius: 10px;
+  padding-inline: 12px;
+  color: white;
+  border: none;
+}
+.SaveChangebt:disabled {
+  background-color: rgb(140, 50, 230); 
+  color: #ffffff;
+  cursor: not-allowed; 
+  opacity: 0.7;
+}
+@media (max-width:767.99px){
+.SaveChangebt {
+  font-size: 14px;
+   padding: 10px 20px;
+}
+.btSave .cancelbtn{
+  font-size: 14px;
+     padding: 10px 20px;
+}
+.formin{
+  font-size: 13px;
+}
+}
+.articleimg {
+  margin-top: 50px;
+  width: 100%;
+  height: 70vh;
+  max-height: 500px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.articleimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 767.99px) {
+  .articleimg {
+    height: 240px;   
+    max-height: none;
+    border-radius: 14px;
+  }
+}

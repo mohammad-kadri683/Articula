@@ -1,0 +1,132 @@
+img{
+    max-width: 100%;
+}
+.swipermobile{
+    min-width: 100%;
+}
+.BakimgS {
+    background-image: url('Images/Image.Contact/Rectangle 9799.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  
+    height: 45vh; 
+    padding: 50px 15px; /* مسافة حول المحتوى */
+    background-color: rgba(76, 51, 135, 0.6);
+    box-sizing: border-box; /* مهم عشان البادينغ ما يضيف ارتفاع إضافي */
+}
+
+
+.titleContact{
+    color: white;   
+    padding-top: 80px;
+}
+.titleContact p{
+    font-size: 24px;
+}
+.email-btn{
+    background-color: #6341AF;
+    color: white;
+    padding: 14px;
+    border-radius:8px;
+    padding-inline: 18px;
+    border: none;
+
+}
+.custom-pagination5 .swiper-pagination-bullet{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+   padding: 6px;
+   background-color:#8a8a8a;
+     border: 4px solid transparent; 
+   
+}
+.custom-pagination5 .swiper-pagination-bullet-active{
+    background-color: #FEF3C7;
+   border-color: #7E54E0;
+}
+.custom-pagination5{
+    margin-top: 30px;
+}
+.imgdubai{
+    position: relative;
+      overflow: hidden; 
+}
+.place p{
+    display: inline-block;
+    font-size: 20px;
+    background-color: #7E54E0;
+    padding: 15px;
+    color: white;
+    padding-inline: 55px;
+    border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        position: absolute;
+        top: 12%;
+}
+.textDubi{
+    background-color: rgba(76, 51, 135, 0.5);   
+    position: absolute;
+    bottom: -100px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+       transition: 0.3s linear; 
+           border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+.imgdubai:hover .textDubi {
+    bottom: 0px;  
+}
+.swiper-button-next{
+   transform: translateX(10px);
+}
+.swiper-button-prev{
+   transform: translateX(-10px);
+}
+.btnSe{
+    color: white;
+    padding: 10px;
+    background-color: #7E54E0;
+    border: none;
+    border-radius: 8px;
+}
+@media (max-width:767.99px){
+    .email-btn{
+    background-color: #6341AF;
+    color: white;
+    padding: 10px;
+    border-radius:8px;
+    padding-inline: 14px;
+    border: none;
+    font-size: 14px;
+
+}
+.titleContact p{
+    font-size: 17px;
+}
+.titleContact h1{
+    font-size: 25px;
+}
+.custom-pagination5 .swiper-pagination-bullet{
+    cursor: pointer;
+    width: 6px;
+    height: 6px;
+   padding: 5px;
+   background-color:#8a8a8a;
+     border: 3px solid transparent; 
+   
+}
+.custom-pagination5 .swiper-pagination-bullet-active{
+    background-color: #FEF3C7;
+   border-color: #7E54E0;
+}
+.BakimgS{
+
+      height: 45vh;
+          padding: 25px 15px; /* مسافة حول المحتوى */
+         
+}
+}

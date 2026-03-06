@@ -1,0 +1,46 @@
+.Userlistdash{
+    margin-top: 70px;
+}
+
+.borderdash{
+    border-bottom: solid 2px;
+}
+.carddash{
+    border: solid 1px rgb(188, 188, 188);
+    padding: 10px;
+}
+.imgusd{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.usedashh {
+    font-size: 50px;
+
+}
+.border-col {
+  border-bottom: 2px solid #000; 
+}
+.backCod {
+    margin-top: 270px;
+    
+}
+.backCod .nav-pills .nav-link.active {
+  background-color:blueviolet; /* اللون اللي بدك ياه */
+  color: #fff;
+}
+
+
+.backCod .nav-pills .nav-link {
+  background-color: transparent;
+  color: #333;
+}
+
+.active-gre td{
+    padding: 4px;
+    padding-inline: 13px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(76, 208, 76);
+}

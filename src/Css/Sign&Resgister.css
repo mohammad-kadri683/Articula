@@ -1,0 +1,151 @@
+.mainSign{
+
+  background: linear-gradient(
+    to right,
+    rgba(243, 238, 254, 0.8) 50%, 
+    transparent 50%            
+  );
+  overflow: hidden;  
+  min-height: 100vh;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.imgRi {
+      transform: scale(1.1) translateX(5px) translateY(80px);
+  width: 100%;
+margin-top: 70px;
+  aspect-ratio: 1 / 1; 
+
+}
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+.btn-move{
+    background-color: #8B5CF6;
+    color: white;
+    padding: 10px;
+    padding-inline: 25px;
+    border-radius: 4px;
+} .btn-movee{
+    background-color: #8B5CF6;
+    color: white;
+    padding: 10px;
+    padding-inline: 25px;
+    border-radius: 4px;
+}
+.btn-move:hover{
+    background-color: antiquewhite;
+}
+.btn-movee:hover{
+    background-color: antiquewhite;
+}
+.terms a{
+color: #8B5CF6;
+text-decoration: none;
+
+
+}
+.sign-up-with{
+    color: gray;
+}
+.item1{
+    border: solid 1px gray;
+    border-radius: 20px;
+    padding: 4px;
+    padding-inline: 20px;
+}
+.google{
+border-right: solid 1px;
+padding: 4px;
+}
+.a-gog{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-move:disabled{
+  background-color: #8B5CF6;
+  color: white;
+}
+.btn-movee:disabled{
+  background-color: #8B5CF6;
+  color: white;
+}
+.alertss{
+  color: red;
+}
+.labs{
+  font-size: 14px;
+}
+
+@media (max-width:991.99px){
+.imgRi{
+        transform: scale(1) translateX(0px) translateY(0px);
+}
+.mainSign {
+    background: linear-gradient(
+      to bottom,
+      rgba(243, 238, 254, 0.8) 40%,
+      transparent 40%
+    );
+  }
+
+.ddaf{
+  transform: 
+  translateY(-70px);
+}
+  .item1{
+    border: solid 1px gray;
+    border-radius: 18px;
+    padding: 3px;
+    padding-inline: 8px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+}
+.eye-btn {
+  position: absolute;
+  top: 50%;
+  right: 12px;     
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.eye-btnn {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+@media (min-width:991px) and (max-width:1261.99px){
+.labs{
+  font-size: 10px;
+}
+
+}
+@media (max-width:767.99px){
+  .labs{
+  font-size: 10px;
+}
+.btn-move{
+    background-color: #8B5CF6;
+    color: white;
+    font-size: 11px;
+    padding: 8px;
+    padding-inline: 15px;
+    border-radius: 4px;
+}
+
+}
